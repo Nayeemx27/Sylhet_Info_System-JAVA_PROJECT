@@ -28,3 +28,4 @@ class Tourism{
         System.out.println("Cordiante:25.107168064805492, 92.17666622377611");
 	}
 }
+//sami gay sami gay sami gay
