@@ -9,6 +9,7 @@ class Tourism{
 
 
         System.out.println("-----------------");
+		//        System.out.println("\t\t\t1.Hazrat Shajalal Mazar ");
         System.out.println("Discription:The Shah Jalal Dargah (Bengali: শাহজালাল দরগাহ) is the shrine and burial place of the 14th century Muslim saint Shah Jalal,\n located in Sylhet, Bangladesh. The site, known as a dargah, was originally constructed c. 1500,\n though many additions and alterations were made to its structures over the following centuries.");
         System.out.println("place: Chowhatta ");
         System.out.println("Howtogo:You have to take the rickshaw or the automatic CNG rickshaw and head towards Dargah Mahallah from Sylhet Sadar.\nHow to get there: Sylhet Distric:There are three types of transportation modes available to Sylhet from Dhaka. You can get there by bus, train or plane.");
