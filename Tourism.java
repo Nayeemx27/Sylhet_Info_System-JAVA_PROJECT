@@ -27,5 +27,31 @@ class Tourism{
      //   System.out.println("Explore:The beauty of nature");
         System.out.println("Best Time To Travel: June to Spetember");
         System.out.println("Cordiante:25.107168064805492, 92.17666622377611");
+		
+		
+		//NAYEEM (0_0)
+		
+		//Jaflong
+		
+		System.out.println("Jaflong");
+		System.out.println("");
+		System.out.println(
+				"Description: Jaflong (Bengali: জাফলং) is a hill station and tourist destination in the Division of Sylhet, Bangladesh. It is located in Gowainghat Upazila of Sylhet District and situated at the border between Bangladesh and the Indian state of Meghalaya, overshadowed by subtropical mountains and rainforests. It is known for its stone collections and is home of the Khasi tribe.");
+		System.out.println("Best time to visit: During winter and rainy season.");
+		System.out.println("");
+		System.out.println("Places to Explore: ");
+		System.out.println("1. Zero Point");
+		System.out.println("2.Piain River");
+		System.out.println("3.Sengram Punji Waterfalls");
+		System.out.println("4.Khasia Village");
+		System.out.println("5.Jaflong Bridge");
+		System.out.println("6.Stone Collection activities");
+		System.out.println("");
+		System.out.println("Way to Reach the destination:");
+		System.out.println(
+				"You can go to Jaflong by CNG or Auto with BDT 1200 to 2000. If you take Microbus, it will cost BDT 3000 to 5000 for the whole day. From any places of Sylhet city, you will find CNG or Auto Rickshaw. If you are in a group, the best and affordable way is going with Microbuses.");
+		System.out.println("");
+		System.out.println("coordinates:");
+		System.out.println("25.1634° N, 92.0175° E");
 	}
 }
