@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-120,0,0,3,-76"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Component id="jScrollPane1" alignment="0" pref="948" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="571" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="jLabel65" min="-2" pref="88" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jLabel65" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel65">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Agency FB" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/oop/images/back-orange-32px.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="  Back"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel65MouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[900, 3500]"/>
+            </Property>
+            <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel5" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" pref="137" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="0" min="-2" pref="208" max="-2" attributes="0"/>
+                                  <Component id="jLabel13" alignment="0" min="-2" pref="234" max="-2" attributes="0"/>
+                                  <Component id="jLabel18" alignment="0" min="-2" pref="258" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane12" alignment="0" min="-2" pref="913" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jScrollPane4" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane5" alignment="0" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jScrollPane9" max="32767" attributes="0"/>
+                                                  <Component id="jScrollPane8" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabel19" min="-2" pref="355" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jScrollPane3" min="-2" pref="921" max="-2" attributes="0"/>
+                                                  <Component id="jScrollPane6" alignment="0" min="-2" pref="915" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jScrollPane10" min="-2" pref="550" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jScrollPane7" alignment="0" min="-2" pref="915" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel14" alignment="0" min="-2" pref="292" max="-2" attributes="0"/>
+                                          <Component id="jLabel16" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="381" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" pref="130" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabel6" min="-2" pref="362" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Component id="jLabel8" min="-2" pref="273" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="jLabel9" min="-2" pref="273" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel21" alignment="0" min="-2" pref="292" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel24" min="-2" pref="390" max="-2" attributes="0"/>
+                                                  <Component id="jScrollPane11" min="-2" pref="914" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="357" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabel22" max="32767" attributes="0"/>
+                                          <Component id="jLabel23" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane2" min="-2" pref="919" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel1" alignment="0" min="-2" pref="121" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" min="-2" pref="684" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel12" alignment="0" min="-2" pref="950" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel4" min="-2" pref="343" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="319" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="89" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="34" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="372" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" pref="274" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="47" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="724" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel7" alignment="1" min="-2" pref="262" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" pref="262" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel8" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                      <Component id="jLabel10" min="-2" pref="54" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane4" min="-2" pref="226" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" pref="217" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jLabel12" min="-2" pref="23" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane5" min="-2" pref="263" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" pref="65" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane6" min="-2" pref="385" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel14" alignment="0" min="-2" pref="189" max="-2" attributes="0"/>
+                          <Component id="jLabel15" alignment="0" min="-2" pref="189" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel16" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel17" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Component id="jScrollPane7" min="-2" pref="431" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="jLabel18" min="-2" pref="67" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                              <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane8" min="-2" pref="284" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jScrollPane9" min="-2" pref="293" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane10" min="-2" pref="522" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      <Component id="jLabel21" min="-2" pref="67" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
+                              <Component id="jLabel22" min="-2" pref="230" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane11" min="-2" pref="186" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                      <Component id="jLabel24" min="-2" pref="73" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane12" min="-2" pref="576" max="-2" attributes="0"/>
+                      <EmptySpace pref="141" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Bright" size="24" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Ancient:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Agency FB" size="48" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="History"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;According to historians, Sylhet was an expandedcommercial centre inhabited by Brahmans under the realm of the Harikela and &#xa;Kamarupa kingdoms of ancient Bengal and Assam. Buddhism was prevalent in the first millennium.&#xa;&#xa;The Gour Kingdom, established in the 7th century, took part in many battles with its neighbouring states. Eventually it would split into &#xa;two-Gour (Sylhet) and Brahmachal (South Sylhet/modern-day Moulvibazar). The region was also home to many petty kingdoms such as&#xa;Laur and day Moulvibazar). The region was also home to many petty kingdoms such as Laur and the Raja of Tripura Dharma Fa planned a&#xa;ceremony and invited five Brahmans from Etawah, Mithila and Kannauj. To compensate for their long journey, the Raja granted them &#xa;Towards the end of the millennium, the Candras ruled over Bengal.&#xa;&#xa;A 930 AD copper-plate of Srichandra, of the Chandra dynasty of East Bengal, was found in Tengubazar Mandir, Paschimbhag, Rajnagar &#xa;detailing his successful campaign against the Kingdom of Kamarupa. In the early medieval period, the area was dominated by Hindu &#xa;principalities, which were under the nominal suzerainty of the Senas and Devas.&#xa;&#xa;After the death of Raja Upananda of Brahmachal (modern-day Baramchal, Kulaura), Govardhan of Gour allowed Amar Singh to rule over&#xa;southern Sylhet. Singh was unable to cope and died shortly after. The Kuki chiefs then annexed Brahmachal (Southern Sylhet) to the &#xa;Twipra Kingdom ruled by Ratan Manikya. Jaidev Rai was appointed to govern Brahmachal under the Tripura king. The penultimate Raja&#xa;Govardhan of Gour was killed in a battle against Kuki rebels and the Jaintia Kingdom in 1260. He would be succeeded by his nephew, our&#xa;Govinda, who would reunite Northern Sylhet (Gour) and Southern Sylhet (Brahmachal). Govinda dismissed Govardhan&apos;s chief minister&#xa;Madan Rai and appointed Mona Rai as his minister instead.&#xa;"/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                    <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fc" green="f2" red="f2" type="rgb"/>
+                    </Property>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Bright" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Medieval:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Delhi Sultanate period:&#xa;&#xa;During the time of the Delhi Sultanate&apos;s conquest of Bengal, Sylhet continued to be made up of petty kingdoms. Ghiyasuddin Iwaz Shah, the&#xa;governor of Bengal who later claimed independence from Delhi, carried out invasions into neighbouring regions such as Assam, Tripura, &#xa;Bihar and Sylhet and making them his tributary states. In 1254, Governor of  Bengal Malik Ikhtiyaruddin Iuzbak invaded the Azmardan&#xa; Raj (present-day Ajmiriganj). He defeated the local Raja, and plundered his wealth. &#xa;&#xa;The Raja of Laur, Ramnath (descendant of Keshab Misra), had three sons with only one remaining in central Laur. Ramnath&apos;s second son,&#xa;Durbar Khan, migrated to Jagannathpur to build his own palace. He later seized his youngest brother, Gobind Singh&apos;s, territory in Baniachong. &#xa;&#xa;&#xa;Sonargaon rule:&#xa;&#xa;The Delhi Sultanate&apos;s control of Bengal gradually weakened as rebel governors declared independence. During the early 14th-century, Bengal &#xa;was divided between three small sultanates- Sonargaon in the east, Lakhnauti in the west, and Satgaon in the south. Fakhruddin Mubarak &#xa;Shah became the independent Sultan of eastern Bengal with a realm covering Sonargaon, Sylhet, and Chittagong. His kingdom was powerful &#xa;enough to withstand the kingdoms of Arakan and Tripura. The Moroccan traveler Ibn Battuta visited Sylhet during this period and met &#xa;with Fakhruddin Mubarak Shah and Shah Jalal. Fakhruddin was succeeded by his son Ikhtiyaruddin Ghazi Shah&#xa;&#xa;&#xa;Bengal Sultanate period:&#xa;&#xa;After the defeat of the last Sultans of Lakhnauti and Sonargaon between 1342 and 1352, Sylhet passed to the control of Shamsuddin Ilyas Shah&#xa;who unified a wider region into the Bengal Sultanate. Bengali Muslims were exploiting the fertile land of Sylhet for agricultural production&#xa;and enjoyed relative prosperity innovating a contemporary agrarian society. &#xa;&#xa;In 1384, a young Persian man by the name of Mirza Malik Muhammad Turani migrated to Sylhet with a large force and established the&#xa;Pratapgarh Kingdom (also including Deorali and Bhanugach) after marrying the daughter of the local ruler who had no children to take&#xa;the throne. The Kingdom was subordinate to the Maharaja Maha Manikya of the Manikya dynasty of Tripura.&#xa;&#xa;1486 marked the birth of Chaitanya whose ancestral homes are in Golapganj and Baniachong. Hindus believe Chaitanya was a reincarnation &#xa;of Krishna and will return during the Kholi Zug. In 1499, a Persian nobleman from Isfahan known as Prince Sakhi Salamat settled in a rural &#xa;village in South Sylhet known as Prithimpassa (now located in Kulaura). Being a wealthy nobleman; his son, Ismail Khan Lodhi, was granted&#xa;a jagir by the Mughals and given the status of Nawab in addition to other prestigious titles. In 1511, Alauddin Husain Shah&apos;s general Rukun &#xa;Khan was made the governor of Sylhet. In 1512, Khan enlarged the dargah of Shah Jalal, according to an ancient Persian inscription. Khan &#xa;was succeeded by Gawhar Khan Aswari. &#xa;&#xa;During the rule of the Kangleipak King Khagemba, the King&apos;s brother, Prince Shalungba, was disappointed with Khagemba&apos;s treatment so he&#xa;fled to the Sylhet region where he allied with Bengali Muslim leaders. With a contingent of Sylheti soldiers, Shalungba then attempted to&#xa;invade Manipur but the soldiers were captured and made to work as labourers in Manipur. These soldiers married local Manipuri women &#xa;and adapted to the Meitei language. They introduced hookah to Manipur and founded the Pangal or Manipuri Muslim community."/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/Jaintipur_Palace_Sylhet_Bangladesh_7.JPG"/>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[950, 900]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[950, 900]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[950, 900]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Roboto Slab" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Ruins of the Jaintia Rajbari"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/Delhi.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/330px-&#x989;&#x99a;&#x9be;&#x987;&#x9b2;_&#x9b6;&#x982;&#x995;&#x9b0;&#x9aa;&#x9be;&#x9b6;&#x9be;_&#x9b6;&#x9be;&#x9b9;&#x9c0;_&#x9ae;&#x9b8;&#x99c;&#x9bf;&#x9a6;_&#x9e7;&#x9e8;.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Trebuchet MS" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="An ancient prayer rug from Konya"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Trebuchet MS" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Shankarpasha Mosque in Habiganj"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Bright" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Mughal Period:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="The Mughal invasions and conquests in Bengal started during the reigns of Emperors Humayun and Akbar. The Battle of Rajmahal in&#xa;1576 led to the execution of Daud Khan Karrani, ending the Karrani sultanate. However, the Pashtuns and the local zamindars known &#xa;as Baro Bhuyans led by Isa Khan, the ruler of Bhati, continued to resist the Mughal invasion. After the death of Isa in 1599, the Baro-&#xa;Bhuyan confederacy started to weaken. The Ain-i-Akbari notes the prevalence of slaves, oranges, timber and singing birds in the &#xa;region. Bengal was integrated as a Mughal province known as the Bengal Subah by 1612during the reign of Jahangir. The Finance &#xa;Minister of the latter emperor, Raja Todar Mal, estimated Sylhet to be worth &#xfffd;16,704 in 1582. The Qanungoh (revenue collector) of&#xa;Sylhet was assisted by pargana patowaris. Each pargana&apos;s revenue was collected by a choudhury. &#xa;&#xa;In 1618, the Jaintia Raja Dhan Manik conquered Dimarua leading to a war with Maibong Raja Yasho Narayan Satrudaman of the Kachari&#xa;Kingdom. Dhan Manik, realising that he would need assistance, gave his daughter in hand to Raja Susenghphaa of the Ahom kingdom.&#xa;The Ahoms then fought the Kacharis allowing an easy escape for Dhan Manik and the Jaintians. &#xa; &#xa;"/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/Mughal.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tw Cen MT" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Farhad Khan&apos;s Shahi Eidgah, straddling a hilltop, was the site where the Muharram Rebellion would take place in 1782."/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea4">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Sylhet became a sarkar of the Bengal Subah. Its eight mahals/mahallahs included Pratapgarh-Panchakhanda, Bahua-Bajua, Jaintia&#xa;(parts of Jaintia Kingdom), Habili (Sylhet), Sarail-Satra Khandal (North Tripura), Laur, Baniachong and Harinagar. Sylhet emerged as&#xa;the Mughals&apos; most significant imperial outpost in the east and its importance remained as such throughout the seventeenth century. &#xa;The sardars of Sylhet during Jahangir&apos;s reign included Mubariz Khan, Mukarram Khan, Mirak Bahadur Jalair, Sulayman Banarsi and&#xa;his son, and Mirza Ahmad Beg. During the rebellion of Prince Khurram, Mirza Saleh Arghun - a relative of Khwaja Usman  was made&#xa;the faujdar of Sylhet. &#xa;&#xa;In the early 1700s, the Jaintia Raja Ram Singh kidnapped the Kachari Raja. The Raja of Cachar then informed Ahom Raja Rudra Singh&#xa;Sukhrungphaa which led to the Ahoms attack through North Cachar and Jaintia Hills. Jaintia was annexed to the Ahoms and its capital&#xa;city, Jaintiapur, was then raided by the Ahoms and thousands of innocent civilians were put to death or ears and noses were cut off. &#xa;Sukhrungphaa then informed the Faujdar of Sylhet that Jaintia was under his rule and that it is him that they will trade to. However, &#xa;the Ahom rule in Jaintia was weak and short-lived. The Jaintias rebelled in their own land defeating the Ahom soldiers. Ram Singh, &#xa;however, died as a captive to the Ahoms and his son, Jayo Narayan took over the Jaintia Kingdom"/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Bright" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Company Rules: "/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea5">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="In 1757, the Shyllong King Khasi Raja closed the Sonapur Duar, stopping trade between the Jaintia and Ahom kingdoms. An envoy&#xa;of Jaintias assembled at Hajo where they informed the incident to Ahom Raja Suremphaa Swargadeo Rajeswar Singh who&#xa;re-opened it for them.&#xa;&#xa;&#xa;Sylhet came under British administration in 1765 and made a part of the Bengal Presidency. William Makepeace Thackeray was made&#xa;the first Collector of Sylhet and he was followed by Mr Sumner. Sylhet was strategically important for the British in their pursuit of&#xa;conquering Northeast India and Upper Burma. The British divided the region into four subdivisions further divided into collectory&#xa;zilas and then parganas. The Qanungohs were abolished for a time during British rule and Wahdadars replaced Choudhuries as local&#xa;revenue collectors. North Srihatta consisted of Parkul, Jaintiapur and Tajpur zilas. South Srihatta was made up of Rajnagar, Hingazia&#xa;and Noyakhali. Habiganj was split into Nabiganj, Laskarpur and Shankarpasha. Sunamganj had one collectory zila at Ramulganj and&#xa;Karimganj at Latu. During this time, many Western European and Armenian traders migrated to Sylhet and are buried in Sylhet Sadar.&#xa;&#xa;In 1782, the first ever uprising in the Indian subcontinent which was against the British rule, the Muharram Rebellion, took place in&#xa;Sylhet Shahi Eidgah in which Lindsay killed two of the leaders of the rally, the Pirzada and Syed Muhammad Hadi, with his own pistol.&#xa;The other leader, Syed Muhammad Mahdi was also killed in the conflict alongside other rebels. &#xa;&#xa;In 1783, the headquarters of a thana was attacked by Khasis who were provoked by a certain havildar. The Khasi chiefs demanded the&#xa;havildar&apos;s head which Lindsay refused to give. Many casualties and deaths occurred on both sides, Lindsay&apos;s chunam works were &#xa;plundered and his men were said to have been cut into pieces."/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/300px-1740_Seutter_Map_of_India,_Pakistan,_Tibet_and_Afghanistan_-_Geographicus_-_IndiaMogolis-seutter-1740.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/Company.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="A 1740 Latin map of South Asia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="The Mulnicherra Estate is the oldest tea garden in South Asia. "/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea6">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="In 1786, the Revolt of Radharam took place in the Greater Pratapgarh. Zamindar Radha Ram plundered Chargola thana in Karimganj with&#xa;the help of Kukis before escaping. Lindsay reacted by ordering for the burning of Radha Ram&apos;s village and the seizing of his cattle. It is &#xa;said in another incident that the hill tribes attacked the Laur thana, killing 20 people including the thanadar. In 1787, the Khasis of Laur&#xa;also rebelled, plundering many parganas, such as Atgram, Bangaikunda, Ramdiga, Betal and Selharas, and killing up to 800 people. Before &#xa;Lindsay&apos;s troops could arrive, the Khasis retreated back to their mountains. &#xa;&#xa;In 1799, Agha Muhammad Reza invaded Cachar. With help of Nagas and Kukis, he was able to defeat the barqandaz sent by the Raja of the&#xa; Kachari Kingdom, and expelled the Raja to the nearby hills. Reza also sent 1,200 men to attack the nearby thana of the East India &#xa;Company, administered by one havildar and eight sepoys. The Kachari army then arrived with 300 men and two grasshopper cannons&#xa;but were defeated. During this time, the British were able to gain a reinforcement of 70 sepoys. The army ended up in a brawl between &#xa;the Kacharis, and the British sepoys eventually drove both groups back leading to 90 deaths in the Kachari side. Reza was later arrested. &#xa;&#xa;Ganar Khan was the last Faujdar of Sylhet. During his office, two processions were being prepared by Sylhet&apos;s Muslim and Hindu &#xa;communities respectively. The Islamic month of Muharram in the Sylhet&apos;s history was a lively time during which tazia processions&#xa;were common. This happened to fall on the same day as the Hindu festival of Rothjatra (chariot  procession). Sensing possible&#xa; communal violence, Ganar Khan requested the Hindu community to delay their festival by one day. Contrary to the Khan&apos;s statement, &#xa;a riot emerged between the two communities. During one of the riots, the King of Manipur Gambhir Singh was passing through the city&#xa;of Sylhet whilst on a British expedition against the Khasis. As a Hindu himself, Singh managed to defend the Hindus and disperse the&#xa;Muslim rioters with his Manipuri troops. The Rothjatra was not delayed, and the Manipuri king stayed to take part in it and was revered&#xa;by the Hindu community as a defender of their faith. &#xa;&#xa;In the anti-British Sepoy Mutiny of 1857, 300 sepoys who revolted against the British, looted the Chittagong Treasury and took shelter&#xa;with Nawab Gaus Ali Khan of Prithimpassa. The treasury remained under rebel control for several days. A rebellion also took place in &#xa;Latu, Barlekha."/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Bright" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="British Raj: "/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea7">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Assam Province (1874-1905):&#xa;&#xa;Despite protests to the Viceroy from its Bengali-majority population, Sylhet was &#xa;made part of the non-regulation Chief Commissioner&apos;s Province of Assam&#xa;(Northeast Frontier Province) in September 1874 in order to facilitate Assam&apos;s&#xa;commercial development. A memorandum of protest against the transfer of Sylhet&#xa;was submitted to the viceroy on 10 August 1874 by leaders of both the Hindu and&#xa;Muslim communities. The protests subsided when the Viceroy, Lord Northbrook,&#xa;visited Sylhet to reassure the people that education and justice would be &#xa;administered from Bengal, and when the Sylheti people saw the opportunity &#xa;of employment in tea estates in Assam and a market for their produce."/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/375px-AssamProvince1936_Map.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea8">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Eastern Bengal and Assam (1905-1912):&#xa;&#xa;In 1905, Sylhet was added to the Chief Commissioner&apos;s Province of Eastern Bengal&#xa;and Assam as a result of the Partition of Bengal. The new province, now ruled by a&#xa;Lt. Governor, had its capital at Dhaka. Sylhet was incorporated into the province&apos;s&#xa;Surma Valley Division. The province had a 15-member legislative council in which&#xa;Assam had two seats. The members for these seats were recommended (not elected)&#xa;by rotating groups of public bodies. &#xa;&#xa;The partition was strongly protested in Bengal, and some people in Assam were not&#xa;happy either. Opposition to partition was co-ordinated by Indian National Congress,&#xa;whose President was then Sir Henry John Stedman Cotton who had been Chief &#xa;Commissioner of Assam until he retired in 1902. The partition was finally annulled&#xa;by an imperial decree in 1911, announced by the King-Emperor at the Delhi Durbar."/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/east-bengal-assam3.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane10">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea9">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Assam Province (1912-1947):&#xa;&#xa;By the 1920s, organizations such as the Sylhet Peoples&apos; Association and Sylhet-&#xa;Bengal ReunionLeague (1920) mobilized public opinion demanding the division&apos;s&#xa;incorporation into Bengal. However, the leaders of the Reunion League, including&#xa;Muhammad Bakht Mauzumdar and Syed Abdul Majid, later opposed the transfer &#xa;of Sylhet and Cachar to Bengal during the Surma Valley Muslim Conference of &#xa;September 1928. This was supported by the Anjuman-e-Islamia and Muslim &#xa;Students Association. &#xa;&#xa;On 23 March 1922, an anti-British mob took place at a madrasa in Kanaighat. The &#xa;madrasa was set to host their annual jalsa on the day but the British Raj had &#xa;outlawed it and declared Section 144 throughout Kanaighat. The organisers were&#xa;angered by the ban and subsequently violated Section 144 by leading a mob to&#xa;attack the British commissioners. The armed British were able to conduct a swift&#xa;victory, by shooting down six people and injuring 38 people. The numbers of &#xa;lascars grew between the two world wars, with some ending up in the docks of &#xa;London and Liverpool. During World War II, many fought on the Allied front &#xa;before settling down in the United Kingdom, where they opened cafes and &#xa;restaurants which became important hubs for the British Asian community. &#xa;&#xa;In 1946, Gopinath Bordoloi, the Prime Minister of British Assam brought forward &#xa;his wish to hand over Sylhet back to East Bengal. Following a referendum, almost&#xa;all of erstwhile district of Sylhet became a part of East Bengal in the Dominion of &#xa;Pakistan. After being pleaded by a delegation led by Abdul Matlib Mazumdar, the &#xa;Barak Valley districts were barred and incorporated into the Dominion of India. &#xa;The referendum was held on 6 July 1947. 239,619 people voted to join East Bengal &#xa;(i.e. part of Pakistan) and 184,041 voted to remain in Assam (i.e. part of India). The&#xa;referendum was acknowledged by Article 3 of the Indian Independence Act 1947. "/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Bright" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Post-Partition of India: "/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane11">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea10">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="In the early 20th century, during the British period, a labour exploitation system known as the Nankar custom was introduced and practiced&#xa;by zamindars. This barbarous system was confronted by the local peasants of the region during the Nankar Rebellion, leading to six deaths.&#xa;In Beanibazar, the rebellion was born and spread across East Pakistan leading the Pakistani government to abolish the zamindari system and&#xa;repeal the non-governmental rule to recognize the ownership of the land of peasants. &#xa;&#xa;In 1952, the Pakistan Tea Board - a tea research station in Srimangal, Moulvibazar - was founded to support the production, certification and&#xa;exportation of the tea trade. "/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/oop/images/330px-Shaheed_Minar,_Sylhet_(24307516735).jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="The Central Shaheed Minar in Sylhet "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Bright" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Post liberation from Pakistan: "/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane12">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea11">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Georgia" size="14" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="During the Bangladesh Liberation War, when Pakistan Army created the 39th ad hoc Division in mid-November, from the 14th Division &#xa;units deployed in those areas, to hold on to the Comilla and Noakhali districts, and the 14th Division was tasked to defend the Sylhet and &#xa;Brahmanbaria areas only. Sylhet was part of Sector 3, Sector 4 and Sector 5.&#xa;&#xa;Sector 3 was headed by K. M. Shafiullah and later A. N. M. Nuruzzaman at Hejamara. It was formed by 2 East Bengal and EPR troops &#xa;of Sylhet and Mymensingh. The ten sub-sectors of this sector (and their commanders) were: Asrambari (Captain Aziz, later replaced by&#xa;Captain Ejaz); Baghaibari (Captain Aziz, later replaced by Captain Ejaz); Hatkata (Captain Matiur Rahman); Simla (Captain Matin); &#xa;Panchabati (Captain Nasim); Mantala (Captain MSA Bhuyan); Vijoynagar (Captain MSA Bhuyan); Kalachhara (Lieutenant Majumdar); &#xa;Kalkalia (Lieutenant Golam Helal Morshed); and Bamutia (Lieutenant Sayeed).&#xa;&#xa;Sector 4 comprised from Habiganj to Kanaighat and had 4,000 EPR troops, and aided by 9,000 regular freedom fighters. They were &#xa;commanded by Chitta Ranjan Dutta, and later Mohammad Abdur Rab. The headquarters of Sector 4 was initially at Karimganj and &#xa;later at Masimpur in Assam. The six sub-sectors of this sector (and their commanders) were: Jalalpur (Masudur Rab Sadi); Barapunji&#xa;(Mohammad Abdur Rab); Amlasid (Lieutenant Zahir); Kukital (Flight Lieutenant Kader, later replaced by Captain Shariful Haq); &#xa;Kailas Shahar (Lieutenant Wakiuzzaman); and Kamalpur (Captain Enam).&#xa;&#xa;Sector 5 comprised from Durgapur to Tamabil and was commanded by Major Mir Shawkat Ali at Banshtala. The sector was composed &#xa;of 800 regulars and 5000 guerillas. The six sub-sectors of this sector (and their commanders) were: Muktapur (Subedar Nazir Hossain,&#xa;freedom fighter Faruq was second in command); Dauki (Subedar Major BR Chowdhury); Shela (Captain Helal, who had two assistant &#xa;commanders, Lieutenant Mahbubar Rahman and Lieutenant Abdur Rauf); Bholaganj (Lieutenant Taheruddin Akhunji who had &#xa;Lieutenant SM Khaled as assistant commander); Balat (Subedar Ghani, later replaced by Captain Salahuddinand Enamul Haq &#xa;Chowdhury); and Barachhara (Captain Muslim Uddin). &#xa;&#xa;Amidst the war, many printing presses were damaged and this included the Sylheti Nagri script printed at the Islamia Press. The region&#xa;was a focal point of East Pakistan&apos;s Liberation War, which created Bangladesh. It was the hometown of General M. A. G. Osmani, &#xa;the commander-in-chief of Bangladesh Forces and the Panchgaon Factory in Rajnagar Upazila produced cannons under his command. &#xa;A famous historical cannon built by Janardan Karmakar remains in display in Dhaka. The Battle of Gazipur, in Kulaura, raged between &#xa;the Pakistani military and the allied forces of Bangladesh and India from 4 to 5 December 1971. The battle ended with a&#xa;Bangladeshi victory. The Battle of Sylhet took place from 7 to 15 December, eventually leading to a Pakistani surrender and the liberation&#xa;of Sylhet. Pakistan Army&apos;s 93,000 troops unconditionally surrendered to the Bangladeshi Liberatiion Forces i.e, Mukti Bahini on &#xa;16 December 1971. This day and event is commemorated as the Bijoy Dibos in Bangladesh&#xa;"/>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
